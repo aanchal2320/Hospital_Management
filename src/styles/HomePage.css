@@ -1,0 +1,109 @@
+body { 
+  font-family: Arial, sans-serif; 
+  margin: 0%; 
+} 
+
+.home-page { 
+  text-align: center; 
+  color: #333; 
+} 
+
+.navbar { 
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center; 
+  padding: 20px; 
+  background-color: #0080b1; 
+} 
+
+.logo { 
+  font-size: 1.5em; 
+  color: #fff; 
+  font-weight: bold; 
+} 
+
+.nav-links { 
+  list-style: none; 
+  display: flex; 
+  gap: 20px; 
+} 
+
+.nav-links li { 
+  display: inline; 
+} 
+
+.nav-links a { 
+  color: #fff; 
+  text-decoration: none; 
+  font-weight: bold; 
+} 
+
+.hero-section { 
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center; 
+  background-color: #f0f8ff; 
+} 
+
+.hero-content { 
+  max-width: 50%; 
+} 
+
+.hero-content h1 { 
+  font-size: 2.5em; 
+  color: #333; 
+} 
+
+.hero-content p { 
+  font-size: 1.2em; 
+  margin: 20px 0; 
+} 
+
+.hero-content button { 
+  padding: 10px 20px; 
+  font-size: 1em; 
+  background-color: #0080b1; 
+  color: #fff; 
+  border: none; 
+  border-radius: 5px; 
+  cursor: pointer; 
+} 
+
+.hero-image img { 
+  max-width: 100%; 
+  height: auto; 
+} 
+
+.healthcare-services { 
+  padding: 50px; 
+  background-color: #e5e5e5; 
+} 
+
+.healthcare-services h2 { 
+  font-size: 2em; 
+  margin-bottom: 30px; 
+} 
+
+.service-cards { 
+  display: flex; 
+  justify-content: space-around; 
+  flex-wrap: wrap; 
+  gap: 20px; 
+} 
+
+.card { 
+  background-color: #0080b1; 
+  color: #fff; 
+  padding: 20px; 
+  border-radius: 5px; 
+  width: 30%; 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+} 
+
+.card h3 { 
+  margin-top: 0; 
+} 
+
+.card p { 
+  margin: 10px 0; 
+}

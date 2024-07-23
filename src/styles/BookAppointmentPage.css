@@ -1,0 +1,46 @@
+.book-appointment-page { 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+} 
+ 
+.book-appointment-page-form { 
+    width: 40%; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+} 
+ 
+.book-appointment-page-image { 
+    width: 60%; 
+    height: 100vh; 
+} 
+ 
+.book-appointment-page-form-inputs { 
+    width: 50%; 
+    height: 5px; 
+    margin-left: 5%; 
+    font-size: 1rem; 
+    padding: 2%; 
+} 
+ 
+.book-appointment-page-form-input-fields { 
+    margin-top: 3%; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+} 
+ 
+.book-appointment-page-form-button { 
+    margin-top: 10%; 
+    padding: 20px; 
+    width: 300px; 
+    background-color: #0080b1; 
+    border: 0px; 
+    color: white; 
+    border-radius: 50px; 
+    cursor: pointer; 
+    font-size: 1rem; 
+}
+

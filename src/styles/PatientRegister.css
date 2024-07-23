@@ -1,0 +1,39 @@
+.patient-register { 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+} 
+ 
+.patient-register-form { 
+    width: 40%; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+} 
+ 
+.patient-register-image { 
+    width: 60%; 
+    height: 100vh; 
+} 
+ 
+.patient-register-form-inputs { 
+    width: 50%; 
+    height: 5px; 
+    margin-top: 3%; 
+    font-size: 1rem; 
+    padding: 2%; 
+} 
+ 
+.patient-register-form-button { 
+    margin-top: 10%; 
+    padding: 20px; 
+    width: 300px; 
+    background-color: #0080b1; 
+    border: 0px; 
+    color: white; 
+    border-radius: 50px; 
+    cursor: pointer; 
+    font-size: 1rem; 
+}
+

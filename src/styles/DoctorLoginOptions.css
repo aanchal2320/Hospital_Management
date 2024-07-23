@@ -1,0 +1,32 @@
+.doctor-login-options { 
+  display: flex; 
+  align-items: center; 
+  height: 100vh; 
+  overflow-y: hidden; 
+} 
+
+.doctor-login-options-image { 
+  width: 100%; 
+} 
+
+.options { 
+  position: absolute; 
+  display: flex; 
+  top: 40vh; 
+  left: 5%; 
+} 
+
+.option-buttons { 
+  margin: 20px; 
+  padding: 20px; 
+  width: 300px; 
+  border: 0px; 
+  border-radius: 50px; 
+  cursor: pointer; 
+  font-size: 1.2rem; 
+} 
+
+.option-buttons:hover { 
+  background-color: black; 
+  color: white; 
+}
